@@ -56,8 +56,8 @@ collections:
     label: 'Projects'
     label_singular: 'Project'
     folder: 'content/projects'
-    media_folder: 'subfolder'
-    public_folder: 'subfolder'
+    media_folder: 'subfolder2'
+    public_folder: 'subfolder2'
     create: true
     format: 'frontmatter'
     slug: '{{slug}}'
