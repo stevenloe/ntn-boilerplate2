@@ -56,6 +56,7 @@ collections:
     label: 'Projects'
     label_singular: 'Project'
     folder: 'content/projects'
+    media_folder: ''
     create: true
     format: 'frontmatter'
     slug: '{{slug}}'
