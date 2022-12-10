@@ -52,6 +52,8 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string', required: true }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
+
+
   - name: 'projects'
     label: 'Projects'
     label_singular: 'Project'
@@ -82,3 +84,21 @@ collections:
           summary: '{{fields.image}}',
           field: { label: 'Image', name: 'image', widget: 'image' },
         }
+
+  # Image data object list (board members)
+  - label: "Testimonials"
+    name: "testimonials"
+    label_singular: 'Testimonial'
+    folder: 'content/testimonials'
+    media_folder: '../../static/img/testimonials'
+    public_folder: '/img/testimonials'
+    create: true
+    widget: "list"
+    fields:
+      - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
+      - label: Author
+        name: author
+        widget: object
+        fields:
+          - {label: Name, name: name, widget: string, default: "Emmet"}
+          - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
