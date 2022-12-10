@@ -1,0 +1,16 @@
+NETLIFY CMS NOTES
+
+As described here, images can be stored in seperate folders by collection: https://www.netlifycms.org/docs/beta-features/#folder-collections-media-and-public-folder
+
+
+  - name: 'projects'
+    label: 'Projects'
+    label_singular: 'Project'
+    folder: 'content/projects'
+    media_folder: 'subfolder2'
+    public_folder: 'subfolder2'
+  
+
+    ^^ The last 2 lines here cause the CMS to store images for the project collection in a subfolder of 'content/projects/'. The relative path is 'content/projects/subfolder2
+
+  Content folders are **automatically created**
