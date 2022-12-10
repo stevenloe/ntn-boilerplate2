@@ -96,9 +96,12 @@ collections:
     widget: "list"
     fields:
       - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
-      - label: Author
-        name: author
-        widget: object
-        fields:
-          - {label: Name, name: name, widget: string, default: "Emmet"}
-          - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
+      -  name: "galleria"
+         label: "Gallery" 
+         widget: "list"
+         optional: true
+         fields:
+          - {label: "Title", name: "imgTitle", widget: "string"}
+          - {label: "Gallery Image", name: "imgSrc", widget: "image"}
+          - {label: "Description", name: "imgDesc", widget: "string"} 
+   
