@@ -86,22 +86,21 @@ collections:
         }
 
   # Image data object list (board members)
-  - label: "Testimonials"
-    name: "testimonials"
-    label_singular: 'Testimonial'
-    folder: 'content/testimonials'
-    media_folder: '../../static/img/testimonials'
-    public_folder: '/img/testimonials'
-    create: true
+  - label: "Board Dept Managers"
+    name: "board-department-managers"
+    label_singular: 'board-department-manager'
+    folder: 'content/board'
+    media_folder: '../../static/images/board'
+    public_folder: '/images/board'
+    create: false
     widget: "list"
     fields:
-      - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
-      -  name: "galleria"
-         label: "Gallery" 
+      -  name: "board-member"
+         label: "Board Member" 
          widget: "list"
          optional: true
          fields:
-          - {label: "Title", name: "imgTitle", widget: "string"}
-          - {label: "Gallery Image", name: "imgSrc", widget: "image"}
-          - {label: "Description", name: "imgDesc", widget: "string"} 
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Headshot Photo", name: "img", widget: "image"}
+          - {label: "Name", name: "name", widget: "string"} 
    
