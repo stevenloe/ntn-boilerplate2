@@ -115,6 +115,7 @@ collections:
         file: "content/board/executive-officers.json"
         fields:
           - label: Executive Officers
+            label_singular: Executive Officer
             name: team
             widget: list
             fields:
