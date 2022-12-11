@@ -9,6 +9,7 @@ backend:
 
 # used together with `npx netlify-cms-proxy-server`. https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
 local_backend: true
+publish_mode: editorial_workflow
 
 media_folder: static/img
 public_folder: /img
