@@ -110,7 +110,7 @@ collections:
     files:
       - label: "About foo"
         name: "about"
-        file: "content/foo/about.yml"
+        file: "content/foo/about.json"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: markdown}
