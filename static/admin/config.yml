@@ -114,21 +114,18 @@ collections:
         name: "executive-officers"
         file: "content/board/executive-officers.json"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - label: Executive Officer
+          - label: Executive Officers
             name: team
             widget: list
             fields:
-              - {label: Position, name: position, widget: string}
+              - {label: Position, name: position, widget: string, required: true}
               - {label: Name, name: name, widget: string}
               - {label: Photo, name: photo, widget: image}
+              - {label: Hint, name: 'this is a hint', widget: hint}
       - label: "Locations foo"
         name: "locations"
         file: "content/foo/locations.yml"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
           - label: Locations
             name: locations
             widget: list
