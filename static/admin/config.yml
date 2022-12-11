@@ -88,8 +88,7 @@ collections:
   # Image data object list (board members)
   - label: "Board Dept Managers"
     name: "board-department-managers"
-    label_singular: 'board-department-manager'
-    folder: 'content/board'
+    file: 'content/board/department-managers.md'
     media_folder: '../../static/images/board'
     public_folder: '/images/board'
     create: true
