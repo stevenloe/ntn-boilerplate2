@@ -106,7 +106,7 @@ collections:
           - {label: "Name", name: "name", widget: "string"} 
    
 
-  - label: "Board of Directors"
+  - label: "ABOUT US: Board of Directors"
     name: "board-of-directors"
     media_folder: '../../static/images/board'
     public_folder: '/images/board'
@@ -115,11 +115,6 @@ collections:
         name: "executive-officers"
         file: "content/board/executive-officers.json"
         fields:
-          - name: background_color
-            label: 'Theme Color'
-            widget: hidden
-            default: '#FFFFFF'
-            required: true
           - label: Executive Officers
             label_singular: Executive Officer
             name: team
@@ -133,11 +128,6 @@ collections:
         name: "department-managers"
         file: "content/board/department-managers.json"
         fields:
-          - name: background_color
-            label: 'Theme Color'
-            widget: hidden
-            default: '#FFFFFF'
-            required: true
           - label: Department Managers
             label_singular: Department Manager
             name: team
