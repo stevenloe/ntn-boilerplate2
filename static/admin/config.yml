@@ -9,7 +9,7 @@ backend:
 
 # used together with `npx netlify-cms-proxy-server`. https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
 local_backend: true
-publish_mode: editorial_workflow
+# publish_mode: editorial_workflow        
 
 media_folder: static/img
 public_folder: /img
@@ -116,6 +116,11 @@ collections:
         description: 'this is the description text'
         file: "content/board/executive-officers.json"
         fields:
+          - name: background_color
+            label: 'Theme Color'
+            widget: string
+            default: '#FFFFFF'
+            required: true
           - label: Executive Officers
             label_singular: Executive Officer
             name: team
