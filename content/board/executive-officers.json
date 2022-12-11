@@ -4,6 +4,11 @@
       "position": "Goalie",
       "name": "Bob",
       "photo": "/images/board/240-orange.jpg"
+    },
+    {
+      "name": "Open",
+      "position": "Bookkeeper",
+      "photo": "/images/board/purple-miata.jpg"
     }
   ]
 }
