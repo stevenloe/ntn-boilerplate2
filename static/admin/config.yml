@@ -104,3 +104,32 @@ collections:
           - {label: "Headshot Photo", name: "img", widget: "image"}
           - {label: "Name", name: "name", widget: "string"} 
    
+
+  - label: "foo"
+    name: "foo"
+    files:
+      - label: "About foo"
+        name: "about"
+        file: "content/foo/about.yml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, name: intro, widget: markdown}
+          - label: Team
+            name: team
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Position, name: position, widget: string}
+              - {label: Photo, name: photo, widget: image}
+      - label: "Locations foo"
+        name: "locations"
+        file: "content/foo/locations.yml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, name: intro, widget: markdown}
+          - label: Locations
+            name: locations
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Address, name: address, widget: string}
