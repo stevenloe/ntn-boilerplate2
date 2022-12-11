@@ -105,21 +105,21 @@ collections:
           - {label: "Name", name: "name", widget: "string"} 
    
 
-  - label: "foo"
-    name: "foo"
+  - label: "Board of Directors"
+    name: "board-of-directors"
     files:
-      - label: "About foo"
-        name: "about"
-        file: "content/foo/about.json"
+      - label: "Executive Officers"
+        name: "executive-officers"
+        file: "content/board/executive-officers.json"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: markdown}
-          - label: Team
+          - label: Executive Officer
             name: team
             widget: list
             fields:
-              - {label: Name, name: name, widget: string}
               - {label: Position, name: position, widget: string}
+              - {label: Name, name: name, widget: string}
               - {label: Photo, name: photo, widget: image}
       - label: "Locations foo"
         name: "locations"
