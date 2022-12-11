@@ -19,6 +19,11 @@
       "name": "Open",
       "position": "Mechanic",
       "photo": "/images/board/bat3.jpg"
+    },
+    {
+      "name": "Violet",
+      "position": "Pet",
+      "photo": "/images/board/bat3.jpg"
     }
   ],
   "background_color": "12345"
