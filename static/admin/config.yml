@@ -113,7 +113,6 @@ collections:
     files:
       - label: "Executive Officers"
         name: "executive-officers"
-        description: 'this is the description text'
         file: "content/board/executive-officers.json"
         fields:
           - name: background_color
@@ -126,17 +125,25 @@ collections:
             name: team
             widget: list
             fields:
-              - {label: Position, name: position, widget: string, required: true}
+              - {label: Role, name: role, widget: string, required: true}
               - {label: Name, name: name, widget: string, default: Open}
-              - {label: Photo, name: photo, widget: image, hint: "NOTE: Photo must be square. Ideal photo size: 400 x 400 pixels"}
-              
-      - label: "Locations foo"
-        name: "locations"
-        file: "content/foo/locations.yml"
+              - {label: Photo, name: img, widget: image, hint: "NOTE: Photo must be square. Ideal photo size: 400 x 400 pixels"}
+        
+      - label: "Department Managers"
+        name: "department-managers"
+        file: "content/board/department-managers.json"
         fields:
-          - label: Locations
-            name: locations
+          - name: background_color
+            label: 'Theme Color'
+            widget: hidden
+            default: '#FFFFFF'
+            required: true
+          - label: Department Managers
+            label_singular: Department Manager
+            name: team
             widget: list
             fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Address, name: address, widget: string}
+              - {label: Role, name: role, widget: string, required: true}
+              - {label: Name, name: name, widget: string, default: Open}
+              - {label: Photo, name: img, widget: image, hint: "NOTE: Photo must be square. Ideal photo size: 400 x 400 pixels"}
+              
