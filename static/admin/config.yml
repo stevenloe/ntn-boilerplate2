@@ -112,6 +112,7 @@ collections:
     files:
       - label: "Executive Officers"
         name: "executive-officers"
+        description: 'this is the description text'
         file: "content/board/executive-officers.json"
         fields:
           - label: Executive Officers
