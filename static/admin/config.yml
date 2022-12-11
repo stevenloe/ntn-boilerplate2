@@ -120,8 +120,8 @@ collections:
             fields:
               - {label: Position, name: position, widget: string, required: true}
               - {label: Name, name: name, widget: string}
-              - {label: Photo, name: photo, widget: image}
-              - {label: Hint, name: 'this is a hint', text: "this is also a hint"}
+              - {label: Photo, name: photo, widget: image, hint: "this is a hint"}
+              
       - label: "Locations foo"
         name: "locations"
         file: "content/foo/locations.yml"
