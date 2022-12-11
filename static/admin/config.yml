@@ -88,7 +88,8 @@ collections:
   # Image data object list (board members)
   - label: "Board Dept Managers"
     name: "board-department-managers"
-    file: 'content/board/department-managers.md'
+    label_singular: 'board-department-manager'
+    folder: 'content/board'
     media_folder: '../../static/images/board'
     public_folder: '/images/board'
     create: true
@@ -97,7 +98,7 @@ collections:
       -  name: "board-member"
          label: "Board Member" 
          widget: "list"
-         optional: false
+         optional: true
          fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Headshot Photo", name: "img", widget: "image"}
