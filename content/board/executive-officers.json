@@ -14,6 +14,11 @@
       "name": "Reginald",
       "position": "Footman",
       "photo": "/images/board/red-maita.jpg"
+    },
+    {
+      "name": "Open",
+      "position": "Mechanic",
+      "photo": "/images/board/bat3.jpg"
     }
   ]
 }
