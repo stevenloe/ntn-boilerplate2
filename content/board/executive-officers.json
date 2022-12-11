@@ -1,0 +1,14 @@
+{
+  "team": [
+    {
+      "name": "Captain Cat",
+      "role": "Captain",
+      "img": "/images/board/cat1.jpg"
+    },
+    {
+      "name": "Meower",
+      "role": "Mate",
+      "img": "/images/board/cat2.jpg"
+    }
+  ]
+}
