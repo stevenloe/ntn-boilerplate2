@@ -92,13 +92,13 @@ collections:
     folder: 'content/board'
     media_folder: '../../static/images/board'
     public_folder: '/images/board'
-    create: false
+    create: true
     widget: "list"
     fields:
       -  name: "board-member"
          label: "Board Member" 
          widget: "list"
-         optional: true
+         optional: false
          fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Headshot Photo", name: "img", widget: "image"}
