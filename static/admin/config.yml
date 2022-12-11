@@ -107,6 +107,8 @@ collections:
 
   - label: "Board of Directors"
     name: "board-of-directors"
+    media_folder: '../../static/images/board'
+    public_folder: '/images/board'
     files:
       - label: "Executive Officers"
         name: "executive-officers"
