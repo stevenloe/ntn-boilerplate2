@@ -20,5 +20,6 @@
       "position": "Mechanic",
       "photo": "/images/board/bat3.jpg"
     }
-  ]
+  ],
+  "background_color": "12345"
 }
