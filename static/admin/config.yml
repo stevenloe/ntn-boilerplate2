@@ -118,9 +118,9 @@ collections:
             name: team
             widget: list
             fields:
-              - {label: Position, name: position, widget: string, required: true}
+              - {label: Position, name: position, widget: string, required: true, default: Open}
               - {label: Name, name: name, widget: string}
-              - {label: Photo, name: photo, widget: image, hint: "this is a hint"}
+              - {label: Photo, name: photo, widget: image, hint: "NOTE: Photo must be square. Ideal photo size: 400 x 400 pixels"}
               
       - label: "Locations foo"
         name: "locations"
