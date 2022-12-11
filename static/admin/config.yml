@@ -118,7 +118,7 @@ collections:
         fields:
           - name: background_color
             label: 'Theme Color'
-            widget: string
+            widget: hidden
             default: '#FFFFFF'
             required: true
           - label: Executive Officers
