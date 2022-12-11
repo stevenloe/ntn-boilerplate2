@@ -1,0 +1,14 @@
+{
+  "team": [
+    {
+      "name": "Orange Z",
+      "role": "Manager of Stuff",
+      "img": "/images/board/240-orange.jpg"
+    },
+    {
+      "name": "Red Miata",
+      "role": "Manager of Other Stuff",
+      "img": "/images/board/red-maita.jpg"
+    }
+  ]
+}
