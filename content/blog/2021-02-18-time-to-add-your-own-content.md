@@ -2,6 +2,7 @@
 createdAt: 2021-02-18
 title: Time to add your own content
 description: Remove all of the .md-files in the /content folder and go at it!
+manual_pdf: /img/apr-2022-statement.pdf
 ---
 
 ## Sit liquentibus sinu verbis et spatiarer laedar
